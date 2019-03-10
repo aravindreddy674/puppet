@@ -22,7 +22,11 @@ file { [ $doc_root ]:
 
 file { [ "$doc_root/index.html" ]:
    ensure => "present",
-   source => "/root/puppet_exercise/index.html",
+   content => "Hello World!!!!!!!",
+   owner => 'root',
+   group => 'root',
+   mode => '655',
+#   source => "/root/puppet_exercise/index.html",
    require => File[$doc_root]
 }
 
