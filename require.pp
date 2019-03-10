@@ -1,6 +1,4 @@
-Before and Require:
-	-------------------
-
+#Scenario 1:
 		# ordering.pp
 		file { '/tmp/file3.txt':
  			ensure  => 'file',
@@ -11,8 +9,9 @@ Before and Require:
 		file { '/tmp/file2.txt':
  			ensure  => 'file',
 		}
-	$ puppet apply ordering.pp (check the order)
 
+---------------------------------------------------
+#Scenario 2:
 	# Change that file
 		file { '/tmp/file3.txt':
  			ensure  => 'file',
@@ -25,8 +24,9 @@ Before and Require:
 		file { '/tmp/file2.txt':
  			ensure  => 'file',
 		}
-	$ puppet apply ordering.pp (check the order)
 
+---------------------------------------------------
+#Scenario 3: Use the reference instead of Before or Require
 	# Change that file
 		file { '/tmp/file3.txt':
  			ensure  => 'file', 			
