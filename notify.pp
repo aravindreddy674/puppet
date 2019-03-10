@@ -1,4 +1,4 @@
-#Scenario 1:
+#Scenario 1: Subscribe
 # notify.pp
 		file { '/tmp/config':
  			ensure  => 'file',
@@ -10,7 +10,7 @@
 		}
 
 --------------------------------------------
-#Scenario 2:
+#Scenario 2: Notify
 
 	# notify.pp
 		file { '/tmp/config':
