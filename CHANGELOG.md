@@ -1,0 +1,26 @@
+## 0.1.0 (July 15, 2019)
+  - modules files
+  - Delete dir.pp
+  - Create Readme.md
+  - Create exec.pp
+  - Update notify.pp
+  - Update and rename metaparametes_br.pp to require.pp
+  - Create notify.pp
+  - Create metaparametes_br.pp
+  - Create schedule.pp
+  - Delete index.html
+  - Update apache.pp
+  - Update apache.pp
+  - Create site.pp
+  - Update quickstart.sh
+  - Update Vagrantfile
+  - Delete provision.sh
+  - Delete packages.sh
+  - Delete bash_profile
+  - Delete vagrant-sshfs-1.3.0.gem
+  - Delete vagrant-proxyconf-1.5.2.gem
+  - Add files via upload
+  - Delete quickstart.sh
+  - Puppet Installation files
+  - Puppet files
+
